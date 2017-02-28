@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-controller="UserController">
+<form ng-submit="ctrl.submit()" ng-show="!isSaved">
+    <div class="form-group col-xs-6">
+        <label>Name:</label>
+        <input class="form-control" ng-model="user.userName" id="name">
+        <div style="margin-top: 10pt;">
+            <button type="submit" class="btn btn-default">Save</button>
+        </div>
+    </div>
+</form>
+
+<div style="font-size: 20pt;" ng-show="isSaved">User Name "{{user.userName}}" has been saved</div>
+
+</body>
+</html>

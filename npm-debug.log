@@ -1,0 +1,512 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'ngstorage' ]
+2 info using npm@2.15.11
+3 info using node@v4.7.2
+4 verbose config Skipping project config: /home/wdy/.npmrc. (matches userconfig)
+5 verbose install initial load of /home/wdy/package.json
+6 verbose installManyTop reading scoped package data from /home/wdy/node_modules/abbrev/package.json
+7 verbose installManyTop reading scoped package data from /home/wdy/node_modules/accepts/package.json
+8 verbose installManyTop reading scoped package data from /home/wdy/node_modules/after/package.json
+9 verbose installManyTop reading scoped package data from /home/wdy/node_modules/ansi-regex/package.json
+10 verbose installManyTop reading scoped package data from /home/wdy/node_modules/ansi-styles/package.json
+11 verbose installManyTop reading scoped package data from /home/wdy/node_modules/aproba/package.json
+12 verbose installManyTop reading scoped package data from /home/wdy/node_modules/are-we-there-yet/package.json
+13 verbose installManyTop reading scoped package data from /home/wdy/node_modules/argparse/package.json
+14 verbose installManyTop reading scoped package data from /home/wdy/node_modules/array-find-index/package.json
+15 verbose installManyTop reading scoped package data from /home/wdy/node_modules/array-flatten/package.json
+16 verbose installManyTop reading scoped package data from /home/wdy/node_modules/asn1/package.json
+17 verbose installManyTop reading scoped package data from /home/wdy/node_modules/assert-plus/package.json
+18 verbose installManyTop reading scoped package data from /home/wdy/node_modules/async/package.json
+19 verbose installManyTop reading scoped package data from /home/wdy/node_modules/asynckit/package.json
+20 verbose installManyTop reading scoped package data from /home/wdy/node_modules/aws-sign2/package.json
+21 verbose installManyTop reading scoped package data from /home/wdy/node_modules/aws4/package.json
+22 verbose installManyTop reading scoped package data from /home/wdy/node_modules/balanced-match/package.json
+23 verbose installManyTop reading scoped package data from /home/wdy/node_modules/base64-js/package.json
+24 verbose installManyTop reading scoped package data from /home/wdy/node_modules/bcrypt-pbkdf/package.json
+25 verbose installManyTop reading scoped package data from /home/wdy/node_modules/biased-opener/package.json
+26 verbose installManyTop reading scoped package data from /home/wdy/node_modules/big-integer/package.json
+27 verbose installManyTop reading scoped package data from /home/wdy/node_modules/block-stream/package.json
+28 verbose installManyTop reading scoped package data from /home/wdy/node_modules/boom/package.json
+29 verbose installManyTop reading scoped package data from /home/wdy/node_modules/bplist-parser/package.json
+30 verbose installManyTop reading scoped package data from /home/wdy/node_modules/brace-expansion/package.json
+31 verbose installManyTop reading scoped package data from /home/wdy/node_modules/browser-launcher2/package.json
+32 verbose installManyTop reading scoped package data from /home/wdy/node_modules/buffer-shims/package.json
+33 verbose installManyTop reading scoped package data from /home/wdy/node_modules/builtin-modules/package.json
+34 verbose installManyTop reading scoped package data from /home/wdy/node_modules/camelcase/package.json
+35 verbose installManyTop reading scoped package data from /home/wdy/node_modules/camelcase-keys/package.json
+36 verbose installManyTop reading scoped package data from /home/wdy/node_modules/caseless/package.json
+37 verbose installManyTop reading scoped package data from /home/wdy/node_modules/chalk/package.json
+38 verbose installManyTop reading scoped package data from /home/wdy/node_modules/cli/package.json
+39 verbose installManyTop reading scoped package data from /home/wdy/node_modules/cliui/package.json
+40 verbose installManyTop reading scoped package data from /home/wdy/node_modules/code-point-at/package.json
+41 verbose installManyTop reading scoped package data from /home/wdy/node_modules/coffee-script/package.json
+42 verbose installManyTop reading scoped package data from /home/wdy/node_modules/colors/package.json
+43 verbose installManyTop reading scoped package data from /home/wdy/node_modules/combined-stream/package.json
+44 verbose installManyTop reading scoped package data from /home/wdy/node_modules/commander/package.json
+45 verbose installManyTop reading scoped package data from /home/wdy/node_modules/concat-map/package.json
+46 verbose installManyTop reading scoped package data from /home/wdy/node_modules/console-browserify/package.json
+47 verbose installManyTop reading scoped package data from /home/wdy/node_modules/console-control-strings/package.json
+48 verbose installManyTop reading scoped package data from /home/wdy/node_modules/content-disposition/package.json
+49 verbose installManyTop reading scoped package data from /home/wdy/node_modules/content-type/package.json
+50 verbose installManyTop reading scoped package data from /home/wdy/node_modules/cookie/package.json
+51 verbose installManyTop reading scoped package data from /home/wdy/node_modules/cookie-signature/package.json
+52 verbose installManyTop reading scoped package data from /home/wdy/node_modules/core-util-is/package.json
+53 verbose installManyTop reading scoped package data from /home/wdy/node_modules/cryptiles/package.json
+54 verbose installManyTop reading scoped package data from /home/wdy/node_modules/currently-unhandled/package.json
+55 verbose installManyTop reading scoped package data from /home/wdy/node_modules/dashdash/package.json
+56 verbose installManyTop reading scoped package data from /home/wdy/node_modules/date-now/package.json
+57 verbose installManyTop reading scoped package data from /home/wdy/node_modules/dateformat/package.json
+58 verbose installManyTop reading scoped package data from /home/wdy/node_modules/debug/package.json
+59 verbose installManyTop reading scoped package data from /home/wdy/node_modules/decamelize/package.json
+60 verbose installManyTop reading scoped package data from /home/wdy/node_modules/deep-extend/package.json
+61 verbose installManyTop reading scoped package data from /home/wdy/node_modules/default-browser-id/package.json
+62 verbose installManyTop reading scoped package data from /home/wdy/node_modules/delayed-stream/package.json
+63 verbose installManyTop reading scoped package data from /home/wdy/node_modules/delegates/package.json
+64 verbose installManyTop reading scoped package data from /home/wdy/node_modules/depd/package.json
+65 verbose installManyTop reading scoped package data from /home/wdy/node_modules/destroy/package.json
+66 verbose installManyTop reading scoped package data from /home/wdy/node_modules/dom-serializer/package.json
+67 verbose installManyTop reading scoped package data from /home/wdy/node_modules/domelementtype/package.json
+68 verbose installManyTop reading scoped package data from /home/wdy/node_modules/domhandler/package.json
+69 verbose installManyTop reading scoped package data from /home/wdy/node_modules/domutils/package.json
+70 verbose installManyTop reading scoped package data from /home/wdy/node_modules/ecc-jsbn/package.json
+71 verbose installManyTop reading scoped package data from /home/wdy/node_modules/ee-first/package.json
+72 verbose installManyTop reading scoped package data from /home/wdy/node_modules/encodeurl/package.json
+73 verbose installManyTop reading scoped package data from /home/wdy/node_modules/entities/package.json
+74 verbose installManyTop reading scoped package data from /home/wdy/node_modules/error-ex/package.json
+75 verbose installManyTop reading scoped package data from /home/wdy/node_modules/escape-html/package.json
+76 verbose installManyTop reading scoped package data from /home/wdy/node_modules/escape-string-regexp/package.json
+77 verbose installManyTop reading scoped package data from /home/wdy/node_modules/esprima/package.json
+78 verbose installManyTop reading scoped package data from /home/wdy/node_modules/etag/package.json
+79 verbose installManyTop reading scoped package data from /home/wdy/node_modules/eventemitter2/package.json
+80 verbose installManyTop reading scoped package data from /home/wdy/node_modules/exit/package.json
+81 verbose installManyTop reading scoped package data from /home/wdy/node_modules/express/package.json
+82 verbose installManyTop reading scoped package data from /home/wdy/node_modules/extend/package.json
+83 verbose installManyTop reading scoped package data from /home/wdy/node_modules/extsprintf/package.json
+84 verbose installManyTop reading scoped package data from /home/wdy/node_modules/finalhandler/package.json
+85 verbose installManyTop reading scoped package data from /home/wdy/node_modules/find-up/package.json
+86 verbose installManyTop reading scoped package data from /home/wdy/node_modules/findup-sync/package.json
+87 verbose installManyTop reading scoped package data from /home/wdy/node_modules/forever-agent/package.json
+88 verbose installManyTop reading scoped package data from /home/wdy/node_modules/form-data/package.json
+89 verbose installManyTop reading scoped package data from /home/wdy/node_modules/forwarded/package.json
+90 verbose installManyTop reading scoped package data from /home/wdy/node_modules/fresh/package.json
+91 verbose installManyTop reading scoped package data from /home/wdy/node_modules/fs.realpath/package.json
+92 verbose installManyTop reading scoped package data from /home/wdy/node_modules/fstream/package.json
+93 verbose installManyTop reading scoped package data from /home/wdy/node_modules/fstream-ignore/package.json
+94 verbose installManyTop reading scoped package data from /home/wdy/node_modules/g/package.json
+95 verbose installManyTop reading scoped package data from /home/wdy/node_modules/gauge/package.json
+96 verbose installManyTop reading scoped package data from /home/wdy/node_modules/generate-function/package.json
+97 verbose installManyTop reading scoped package data from /home/wdy/node_modules/generate-object-property/package.json
+98 verbose installManyTop reading scoped package data from /home/wdy/node_modules/get-stdin/package.json
+99 verbose installManyTop reading scoped package data from /home/wdy/node_modules/getobject/package.json
+100 verbose installManyTop reading scoped package data from /home/wdy/node_modules/getpass/package.json
+101 verbose installManyTop reading scoped package data from /home/wdy/node_modules/glob/package.json
+102 verbose installManyTop reading scoped package data from /home/wdy/node_modules/graceful-fs/package.json
+103 verbose installManyTop reading scoped package data from /home/wdy/node_modules/graceful-readlink/package.json
+104 verbose installManyTop reading scoped package data from /home/wdy/node_modules/grun/package.json
+105 verbose installManyTop reading scoped package data from /home/wdy/node_modules/grunt/package.json
+106 verbose installManyTop reading scoped package data from /home/wdy/node_modules/grunt-contrib-jshint/package.json
+107 verbose installManyTop reading scoped package data from /home/wdy/node_modules/grunt-known-options/package.json
+108 verbose installManyTop reading scoped package data from /home/wdy/node_modules/grunt-legacy-log/package.json
+109 verbose installManyTop reading scoped package data from /home/wdy/node_modules/grunt-legacy-log-utils/package.json
+110 verbose installManyTop reading scoped package data from /home/wdy/node_modules/grunt-legacy-util/package.json
+111 verbose installManyTop reading scoped package data from /home/wdy/node_modules/grunt-node-inspector/package.json
+112 verbose installManyTop reading scoped package data from /home/wdy/node_modules/grunt-serve/package.json
+113 verbose installManyTop reading scoped package data from /home/wdy/node_modules/grunt-version-check/package.json
+114 verbose installManyTop reading scoped package data from /home/wdy/node_modules/har-validator/package.json
+115 verbose installManyTop reading scoped package data from /home/wdy/node_modules/has-ansi/package.json
+116 verbose installManyTop reading scoped package data from /home/wdy/node_modules/has-color/package.json
+117 verbose installManyTop reading scoped package data from /home/wdy/node_modules/has-unicode/package.json
+118 verbose installManyTop reading scoped package data from /home/wdy/node_modules/hawk/package.json
+119 verbose installManyTop reading scoped package data from /home/wdy/node_modules/headless/package.json
+120 verbose installManyTop reading scoped package data from /home/wdy/node_modules/hoek/package.json
+121 verbose installManyTop reading scoped package data from /home/wdy/node_modules/hooker/package.json
+122 verbose installManyTop reading scoped package data from /home/wdy/node_modules/hosted-git-info/package.json
+123 verbose installManyTop reading scoped package data from /home/wdy/node_modules/htmlparser2/package.json
+124 verbose installManyTop reading scoped package data from /home/wdy/node_modules/http-errors/package.json
+125 verbose installManyTop reading scoped package data from /home/wdy/node_modules/http-signature/package.json
+126 verbose installManyTop reading scoped package data from /home/wdy/node_modules/iconv-lite/package.json
+127 verbose installManyTop reading scoped package data from /home/wdy/node_modules/indent-string/package.json
+128 verbose installManyTop reading scoped package data from /home/wdy/node_modules/inflight/package.json
+129 verbose installManyTop reading scoped package data from /home/wdy/node_modules/inherits/package.json
+130 verbose installManyTop reading scoped package data from /home/wdy/node_modules/ini/package.json
+131 verbose installManyTop reading scoped package data from /home/wdy/node_modules/install/package.json
+132 verbose installManyTop reading scoped package data from /home/wdy/node_modules/invert-kv/package.json
+133 verbose installManyTop reading scoped package data from /home/wdy/node_modules/ipaddr.js/package.json
+134 verbose installManyTop reading scoped package data from /home/wdy/node_modules/is-arrayish/package.json
+135 verbose installManyTop reading scoped package data from /home/wdy/node_modules/is-builtin-module/package.json
+136 verbose installManyTop reading scoped package data from /home/wdy/node_modules/is-finite/package.json
+137 verbose installManyTop reading scoped package data from /home/wdy/node_modules/is-fullwidth-code-point/package.json
+138 verbose installManyTop reading scoped package data from /home/wdy/node_modules/is-my-json-valid/package.json
+139 verbose installManyTop reading scoped package data from /home/wdy/node_modules/is-property/package.json
+140 verbose installManyTop reading scoped package data from /home/wdy/node_modules/is-typedarray/package.json
+141 verbose installManyTop reading scoped package data from /home/wdy/node_modules/is-utf8/package.json
+142 verbose installManyTop reading scoped package data from /home/wdy/node_modules/isarray/package.json
+143 verbose installManyTop reading scoped package data from /home/wdy/node_modules/isexe/package.json
+144 verbose installManyTop reading scoped package data from /home/wdy/node_modules/isstream/package.json
+145 verbose installManyTop reading scoped package data from /home/wdy/node_modules/jasmine/package.json
+146 verbose installManyTop reading scoped package data from /home/wdy/node_modules/jodid25519/package.json
+147 verbose installManyTop reading scoped package data from /home/wdy/node_modules/js-yaml/package.json
+148 verbose installManyTop reading scoped package data from /home/wdy/node_modules/jsbn/package.json
+149 verbose installManyTop reading scoped package data from /home/wdy/node_modules/jshint/package.json
+150 verbose installManyTop reading scoped package data from /home/wdy/node_modules/json-schema/package.json
+151 verbose installManyTop reading scoped package data from /home/wdy/node_modules/json-stringify-safe/package.json
+152 verbose installManyTop reading scoped package data from /home/wdy/node_modules/jsonpointer/package.json
+153 verbose installManyTop reading scoped package data from /home/wdy/node_modules/jsprim/package.json
+154 verbose installManyTop reading scoped package data from /home/wdy/node_modules/lcid/package.json
+155 verbose installManyTop reading scoped package data from /home/wdy/node_modules/load-json-file/package.json
+156 verbose installManyTop reading scoped package data from /home/wdy/node_modules/lodash/package.json
+157 verbose installManyTop reading scoped package data from /home/wdy/node_modules/loud-rejection/package.json
+158 verbose installManyTop reading scoped package data from /home/wdy/node_modules/lru-cache/package.json
+159 verbose installManyTop reading scoped package data from /home/wdy/node_modules/map-obj/package.json
+160 verbose installManyTop reading scoped package data from /home/wdy/node_modules/mavensmate/package.json
+161 verbose installManyTop reading scoped package data from /home/wdy/node_modules/media-typer/package.json
+162 verbose installManyTop reading scoped package data from /home/wdy/node_modules/meow/package.json
+163 verbose installManyTop reading scoped package data from /home/wdy/node_modules/merge-descriptors/package.json
+164 verbose installManyTop reading scoped package data from /home/wdy/node_modules/methods/package.json
+165 verbose installManyTop reading scoped package data from /home/wdy/node_modules/micro-pipe/package.json
+166 verbose installManyTop reading scoped package data from /home/wdy/node_modules/mime/package.json
+167 verbose installManyTop reading scoped package data from /home/wdy/node_modules/mime-db/package.json
+168 verbose installManyTop reading scoped package data from /home/wdy/node_modules/mime-types/package.json
+169 verbose installManyTop reading scoped package data from /home/wdy/node_modules/minimatch/package.json
+170 verbose installManyTop reading scoped package data from /home/wdy/node_modules/minimist/package.json
+171 verbose installManyTop reading scoped package data from /home/wdy/node_modules/mkdirp/package.json
+172 verbose installManyTop reading scoped package data from /home/wdy/node_modules/ms/package.json
+173 verbose installManyTop reading scoped package data from /home/wdy/node_modules/named-argv/package.json
+174 verbose installManyTop reading scoped package data from /home/wdy/node_modules/nan/package.json
+175 verbose installManyTop reading scoped package data from /home/wdy/node_modules/negotiator/package.json
+176 verbose installManyTop reading scoped package data from /home/wdy/node_modules/node-inspector/package.json
+177 verbose installManyTop reading scoped package data from /home/wdy/node_modules/node-pre-gyp/package.json
+178 verbose installManyTop reading scoped package data from /home/wdy/node_modules/nopt/package.json
+179 verbose installManyTop reading scoped package data from /home/wdy/node_modules/normalize-package-data/package.json
+180 verbose installManyTop reading scoped package data from /home/wdy/node_modules/npmlog/package.json
+181 verbose installManyTop reading scoped package data from /home/wdy/node_modules/number-is-nan/package.json
+182 verbose installManyTop reading scoped package data from /home/wdy/node_modules/oauth-sign/package.json
+183 verbose installManyTop reading scoped package data from /home/wdy/node_modules/object-assign/package.json
+184 verbose installManyTop reading scoped package data from /home/wdy/node_modules/on-finished/package.json
+185 verbose installManyTop reading scoped package data from /home/wdy/node_modules/once/package.json
+186 verbose installManyTop reading scoped package data from /home/wdy/node_modules/options/package.json
+187 verbose installManyTop reading scoped package data from /home/wdy/node_modules/os-homedir/package.json
+188 verbose installManyTop reading scoped package data from /home/wdy/node_modules/os-locale/package.json
+189 verbose installManyTop reading scoped package data from /home/wdy/node_modules/os-tmpdir/package.json
+190 verbose installManyTop reading scoped package data from /home/wdy/node_modules/osenv/package.json
+191 verbose installManyTop reading scoped package data from /home/wdy/node_modules/parse-json/package.json
+192 verbose installManyTop reading scoped package data from /home/wdy/node_modules/parseurl/package.json
+193 verbose installManyTop reading scoped package data from /home/wdy/node_modules/path-exists/package.json
+194 verbose installManyTop reading scoped package data from /home/wdy/node_modules/path-is-absolute/package.json
+195 verbose installManyTop reading scoped package data from /home/wdy/node_modules/path-to-regexp/package.json
+196 verbose installManyTop reading scoped package data from /home/wdy/node_modules/path-type/package.json
+197 verbose installManyTop reading scoped package data from /home/wdy/node_modules/pify/package.json
+198 verbose installManyTop reading scoped package data from /home/wdy/node_modules/pinkie/package.json
+199 verbose installManyTop reading scoped package data from /home/wdy/node_modules/pinkie-promise/package.json
+200 verbose installManyTop reading scoped package data from /home/wdy/node_modules/plist/package.json
+201 verbose installManyTop reading scoped package data from /home/wdy/node_modules/process-nextick-args/package.json
+202 verbose installManyTop reading scoped package data from /home/wdy/node_modules/proxy-addr/package.json
+203 verbose installManyTop reading scoped package data from /home/wdy/node_modules/punycode/package.json
+204 verbose installManyTop reading scoped package data from /home/wdy/node_modules/qs/package.json
+205 verbose installManyTop reading scoped package data from /home/wdy/node_modules/range-parser/package.json
+206 verbose installManyTop reading scoped package data from /home/wdy/node_modules/rc/package.json
+207 verbose installManyTop reading scoped package data from /home/wdy/node_modules/read-pkg/package.json
+208 verbose installManyTop reading scoped package data from /home/wdy/node_modules/read-pkg-up/package.json
+209 verbose installManyTop reading scoped package data from /home/wdy/node_modules/readable-stream/package.json
+210 verbose installManyTop reading scoped package data from /home/wdy/node_modules/redent/package.json
+211 verbose installManyTop reading scoped package data from /home/wdy/node_modules/repeating/package.json
+212 verbose installManyTop reading scoped package data from /home/wdy/node_modules/request/package.json
+213 verbose installManyTop reading scoped package data from /home/wdy/node_modules/resolve/package.json
+214 verbose installManyTop reading scoped package data from /home/wdy/node_modules/rimraf/package.json
+215 verbose installManyTop reading scoped package data from /home/wdy/node_modules/semver/package.json
+216 verbose installManyTop reading scoped package data from /home/wdy/node_modules/send/package.json
+217 verbose installManyTop reading scoped package data from /home/wdy/node_modules/serve-favicon/package.json
+218 verbose installManyTop reading scoped package data from /home/wdy/node_modules/serve-static/package.json
+219 verbose installManyTop reading scoped package data from /home/wdy/node_modules/set-blocking/package.json
+220 verbose installManyTop reading scoped package data from /home/wdy/node_modules/setprototypeof/package.json
+221 verbose installManyTop reading scoped package data from /home/wdy/node_modules/shelljs/package.json
+222 verbose installManyTop reading scoped package data from /home/wdy/node_modules/sigmund/package.json
+223 verbose installManyTop reading scoped package data from /home/wdy/node_modules/signal-exit/package.json
+224 verbose installManyTop reading scoped package data from /home/wdy/node_modules/sntp/package.json
+225 verbose installManyTop reading scoped package data from /home/wdy/node_modules/spdx-correct/package.json
+226 verbose installManyTop reading scoped package data from /home/wdy/node_modules/spdx-expression-parse/package.json
+227 verbose installManyTop reading scoped package data from /home/wdy/node_modules/spdx-license-ids/package.json
+228 verbose installManyTop reading scoped package data from /home/wdy/node_modules/sprintf-js/package.json
+229 verbose installManyTop reading scoped package data from /home/wdy/node_modules/sshpk/package.json
+230 verbose installManyTop reading scoped package data from /home/wdy/node_modules/statuses/package.json
+231 verbose installManyTop reading scoped package data from /home/wdy/node_modules/string-width/package.json
+232 verbose installManyTop reading scoped package data from /home/wdy/node_modules/string_decoder/package.json
+233 verbose installManyTop reading scoped package data from /home/wdy/node_modules/stringstream/package.json
+234 verbose installManyTop reading scoped package data from /home/wdy/node_modules/strip-ansi/package.json
+235 verbose installManyTop reading scoped package data from /home/wdy/node_modules/strip-bom/package.json
+236 verbose installManyTop reading scoped package data from /home/wdy/node_modules/strip-indent/package.json
+237 verbose installManyTop reading scoped package data from /home/wdy/node_modules/strip-json-comments/package.json
+238 verbose installManyTop reading scoped package data from /home/wdy/node_modules/strong-data-uri/package.json
+239 verbose installManyTop reading scoped package data from /home/wdy/node_modules/supports-color/package.json
+240 verbose installManyTop reading scoped package data from /home/wdy/node_modules/tar/package.json
+241 verbose installManyTop reading scoped package data from /home/wdy/node_modules/tar-pack/package.json
+242 verbose installManyTop reading scoped package data from /home/wdy/node_modules/tough-cookie/package.json
+243 verbose installManyTop reading scoped package data from /home/wdy/node_modules/trim-newlines/package.json
+244 verbose installManyTop reading scoped package data from /home/wdy/node_modules/truncate/package.json
+245 verbose installManyTop reading scoped package data from /home/wdy/node_modules/tunnel-agent/package.json
+246 verbose installManyTop reading scoped package data from /home/wdy/node_modules/tweetnacl/package.json
+247 verbose installManyTop reading scoped package data from /home/wdy/node_modules/type-is/package.json
+248 verbose installManyTop reading scoped package data from /home/wdy/node_modules/uid/package.json
+249 verbose installManyTop reading scoped package data from /home/wdy/node_modules/uid-number/package.json
+250 verbose installManyTop reading scoped package data from /home/wdy/node_modules/ultron/package.json
+251 verbose installManyTop reading scoped package data from /home/wdy/node_modules/underscore/package.json
+252 verbose installManyTop reading scoped package data from /home/wdy/node_modules/underscore.string/package.json
+253 verbose installManyTop reading scoped package data from /home/wdy/node_modules/unpipe/package.json
+254 verbose installManyTop reading scoped package data from /home/wdy/node_modules/untildify/package.json
+255 verbose installManyTop reading scoped package data from /home/wdy/node_modules/util-deprecate/package.json
+256 verbose installManyTop reading scoped package data from /home/wdy/node_modules/utils-merge/package.json
+257 verbose installManyTop reading scoped package data from /home/wdy/node_modules/uuid/package.json
+258 verbose installManyTop reading scoped package data from /home/wdy/node_modules/v8-debug/package.json
+259 verbose installManyTop reading scoped package data from /home/wdy/node_modules/v8-profiler/package.json
+260 verbose installManyTop reading scoped package data from /home/wdy/node_modules/validate-npm-package-license/package.json
+261 verbose installManyTop reading scoped package data from /home/wdy/node_modules/vary/package.json
+262 verbose installManyTop reading scoped package data from /home/wdy/node_modules/verror/package.json
+263 verbose installManyTop reading scoped package data from /home/wdy/node_modules/which/package.json
+264 verbose installManyTop reading scoped package data from /home/wdy/node_modules/wide-align/package.json
+265 verbose installManyTop reading scoped package data from /home/wdy/node_modules/win-detect-browsers/package.json
+266 verbose installManyTop reading scoped package data from /home/wdy/node_modules/window-size/package.json
+267 verbose installManyTop reading scoped package data from /home/wdy/node_modules/wrap-ansi/package.json
+268 verbose installManyTop reading scoped package data from /home/wdy/node_modules/wrappy/package.json
+269 verbose installManyTop reading scoped package data from /home/wdy/node_modules/ws/package.json
+270 verbose installManyTop reading scoped package data from /home/wdy/node_modules/x-default-browser/package.json
+271 verbose installManyTop reading scoped package data from /home/wdy/node_modules/xmlbuilder/package.json
+272 verbose installManyTop reading scoped package data from /home/wdy/node_modules/xmldom/package.json
+273 verbose installManyTop reading scoped package data from /home/wdy/node_modules/xtend/package.json
+274 verbose installManyTop reading scoped package data from /home/wdy/node_modules/y18n/package.json
+275 verbose installManyTop reading scoped package data from /home/wdy/node_modules/yargs/package.json
+276 info package.json bcrypt-pbkdf@1.0.0 No repository field.
+277 info package.json console-browserify@1.1.0 No license field.
+278 info package.json domelementtype@1.3.0 No license field.
+279 info package.json domhandler@2.3.0 No license field.
+280 info package.json date-now@0.1.4 No license field.
+281 info package.json extsprintf@1.0.2 No license field.
+282 info package.json exit@0.1.2 No license field.
+283 info package.json entities@1.0.0 license should be a valid SPDX license expression
+284 info package.json domutils@1.5.1 No license field.
+285 info package.json findup-sync@0.3.0 No license field.
+286 info package.json getobject@0.1.0 No license field.
+287 info package.json grun@0.2.0 No license field.
+288 info package.json headless@0.1.7 No license field.
+289 info package.json hooker@0.2.3 No license field.
+290 info package.json jsbn@0.1.0 license should be a valid SPDX license expression
+291 info package.json json-schema@0.2.3 No license field.
+292 info package.json grunt-serve@0.1.6 No license field.
+293 info package.json mime@1.3.4 No license field.
+294 info package.json node-inspector@0.12.8 No license field.
+295 info package.json options@0.0.6 No license field.
+296 info package.json micro-pipe@0.1.4 No license field.
+297 info package.json named-argv@0.1.0 No license field.
+298 info package.json punycode@1.4.1 punycode is also the name of a node core module.
+299 info package.json mavensmate@1.0.0-beta.32 license should be a valid SPDX license expression
+300 info package.json rimraf@2.2.8 license should be a valid SPDX license expression
+301 info package.json shelljs@0.3.0 license should be a valid SPDX license expression
+302 info package.json sntp@1.0.9 No license field.
+303 info package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
+304 info package.json utils-merge@1.0.0 No license field.
+305 info package.json v8-debug@0.7.7 license should be a valid SPDX license expression
+306 info package.json verror@1.3.6 No license field.
+307 info package.json xmldom@0.1.27 No license field.
+308 info package.json underscore@1.5.2 No license field.
+309 info package.json g@2.0.1 license should be a valid SPDX license expression
+310 verbose readDependencies loading dependencies from /home/wdy/package.json
+311 silly cache add args [ 'ngstorage', null ]
+312 verbose cache add spec ngstorage
+313 silly cache add parsed spec Result {
+313 silly cache add   raw: 'ngstorage',
+313 silly cache add   scope: null,
+313 silly cache add   name: 'ngstorage',
+313 silly cache add   rawSpec: '',
+313 silly cache add   spec: 'latest',
+313 silly cache add   type: 'tag' }
+314 silly addNamed ngstorage@latest
+315 verbose addNamed "latest" is being treated as a dist-tag for ngstorage
+316 info addNameTag [ 'ngstorage', 'latest' ]
+317 silly mapToRegistry name ngstorage
+318 silly mapToRegistry using default registry
+319 silly mapToRegistry registry https://registry.npmjs.org/
+320 silly mapToRegistry data Result {
+320 silly mapToRegistry   raw: 'ngstorage',
+320 silly mapToRegistry   scope: null,
+320 silly mapToRegistry   name: 'ngstorage',
+320 silly mapToRegistry   rawSpec: '',
+320 silly mapToRegistry   spec: 'latest',
+320 silly mapToRegistry   type: 'tag' }
+321 silly mapToRegistry uri https://registry.npmjs.org/ngstorage
+322 verbose addNameTag registry:https://registry.npmjs.org/ngstorage not in flight; fetching
+323 verbose request uri https://registry.npmjs.org/ngstorage
+324 verbose request no auth needed
+325 info attempt registry request try #1 at 2:43:11 AM
+326 verbose request id b814140850421a3f
+327 http request GET https://registry.npmjs.org/ngstorage
+328 http 200 https://registry.npmjs.org/ngstorage
+329 verbose headers { server: 'nginx/1.10.1',
+329 verbose headers   'content-type': 'application/json',
+329 verbose headers   'last-modified': 'Mon, 01 Aug 2016 06:43:33 GMT',
+329 verbose headers   etag: 'W/"579eef95-4cc4"',
+329 verbose headers   'content-encoding': 'gzip',
+329 verbose headers   'cache-control': 'max-age=300',
+329 verbose headers   'content-length': '4683',
+329 verbose headers   'accept-ranges': 'bytes',
+329 verbose headers   date: 'Tue, 07 Feb 2017 18:43:13 GMT',
+329 verbose headers   via: '1.1 varnish',
+329 verbose headers   age: '0',
+329 verbose headers   connection: 'keep-alive',
+329 verbose headers   'x-served-by': 'cache-hkg6823-HKG',
+329 verbose headers   'x-cache': 'MISS',
+329 verbose headers   'x-cache-hits': '0',
+329 verbose headers   'x-timer': 'S1486492993.060571,VS0,VE809',
+329 verbose headers   vary: 'Accept-Encoding' }
+330 silly get cb [ 200,
+330 silly get   { server: 'nginx/1.10.1',
+330 silly get     'content-type': 'application/json',
+330 silly get     'last-modified': 'Mon, 01 Aug 2016 06:43:33 GMT',
+330 silly get     etag: 'W/"579eef95-4cc4"',
+330 silly get     'content-encoding': 'gzip',
+330 silly get     'cache-control': 'max-age=300',
+330 silly get     'content-length': '4683',
+330 silly get     'accept-ranges': 'bytes',
+330 silly get     date: 'Tue, 07 Feb 2017 18:43:13 GMT',
+330 silly get     via: '1.1 varnish',
+330 silly get     age: '0',
+330 silly get     connection: 'keep-alive',
+330 silly get     'x-served-by': 'cache-hkg6823-HKG',
+330 silly get     'x-cache': 'MISS',
+330 silly get     'x-cache-hits': '0',
+330 silly get     'x-timer': 'S1486492993.060571,VS0,VE809',
+330 silly get     vary: 'Accept-Encoding' } ]
+331 verbose get saving ngstorage to /home/wdy/.npm/registry.npmjs.org/ngstorage/.cache.json
+332 verbose correctMkdir /home/wdy/.npm correctMkdir not in flight; initializing
+333 silly addNameTag next cb for ngstorage with tag latest
+334 silly addNamed ngstorage@0.3.11
+335 verbose addNamed "0.3.11" is a plain semver version for ngstorage
+336 silly mapToRegistry name ngstorage
+337 silly mapToRegistry using default registry
+338 silly mapToRegistry registry https://registry.npmjs.org/
+339 silly mapToRegistry data Result {
+339 silly mapToRegistry   raw: 'ngstorage',
+339 silly mapToRegistry   scope: null,
+339 silly mapToRegistry   name: 'ngstorage',
+339 silly mapToRegistry   rawSpec: '',
+339 silly mapToRegistry   spec: 'latest',
+339 silly mapToRegistry   type: 'tag' }
+340 silly mapToRegistry uri https://registry.npmjs.org/ngstorage
+341 verbose addRemoteTarball https://registry.npmjs.org/ngstorage/-/ngstorage-0.3.11.tgz not in flight; adding
+342 verbose addRemoteTarball [ 'https://registry.npmjs.org/ngstorage/-/ngstorage-0.3.11.tgz',
+342 verbose addRemoteTarball   '1637c45b872d909d9cc7e18b374898d50b2e844f' ]
+343 info retry fetch attempt 1 at 2:43:13 AM
+344 info attempt registry request try #1 at 2:43:13 AM
+345 http fetch GET https://registry.npmjs.org/ngstorage/-/ngstorage-0.3.11.tgz
+346 http fetch 200 https://registry.npmjs.org/ngstorage/-/ngstorage-0.3.11.tgz
+347 silly fetchAndShaCheck shasum 1637c45b872d909d9cc7e18b374898d50b2e844f
+348 verbose addTmpTarball /tmp/npm-21999-8dc6d316/registry.npmjs.org/ngstorage/-/ngstorage-0.3.11.tgz not in flight; adding
+349 verbose addTmpTarball already have metadata; skipping unpack for ngstorage@0.3.11
+350 verbose correctMkdir /home/wdy/.npm correctMkdir not in flight; initializing
+351 silly cache afterAdd ngstorage@0.3.11
+352 verbose afterAdd /home/wdy/.npm/ngstorage/0.3.11/package/package.json not in flight; writing
+353 verbose correctMkdir /home/wdy/.npm correctMkdir not in flight; initializing
+354 verbose afterAdd /home/wdy/.npm/ngstorage/0.3.11/package/package.json written
+355 silly install resolved [ { name: 'ngstorage',
+355 silly install resolved     version: '0.3.11',
+355 silly install resolved     author: { name: 'Gias Kay Lee' },
+355 silly install resolved     licenses: [ [Object] ],
+355 silly install resolved     repository:
+355 silly install resolved      { type: 'git',
+355 silly install resolved        url: 'git+https://github.com/gsklee/ngStorage.git' },
+355 silly install resolved     main: 'ngStorage.js',
+355 silly install resolved     scripts: { test: 'grunt test' },
+355 silly install resolved     devDependencies:
+355 silly install resolved      { bower: '^1.x',
+355 silly install resolved        grunt: '^0.4.1',
+355 silly install resolved        'grunt-cli': '^0.1.11',
+355 silly install resolved        'grunt-contrib-uglify': '^0.x',
+355 silly install resolved        'grunt-karma': '^0.x',
+355 silly install resolved        karma: '^0.13.2',
+355 silly install resolved        'karma-chrome-launcher': '^0.2.0',
+355 silly install resolved        'karma-firefox-launcher': '^0.1.3',
+355 silly install resolved        'karma-mocha': '^0.2.0',
+355 silly install resolved        'karma-phantomjs-launcher': '^0.2.0',
+355 silly install resolved        mocha: '^2.2.4',
+355 silly install resolved        'phantomjs-prebuilt': '^2.1.1' },
+355 silly install resolved     dependencies: {},
+355 silly install resolved     gitHead: '0887aa096db14cde29a039a81f34abc190dbc996',
+355 silly install resolved     description: 'ngStorage =========',
+355 silly install resolved     bugs: { url: 'https://github.com/gsklee/ngStorage/issues' },
+355 silly install resolved     homepage: 'https://github.com/gsklee/ngStorage#readme',
+355 silly install resolved     _id: 'ngstorage@0.3.11',
+355 silly install resolved     _shasum: '1637c45b872d909d9cc7e18b374898d50b2e844f',
+355 silly install resolved     _from: 'ngstorage@latest',
+355 silly install resolved     _npmVersion: '2.15.1',
+355 silly install resolved     _nodeVersion: '0.12.14',
+355 silly install resolved     _npmUser: { name: 'egilkh', email: 'egilkh@gmail.com' },
+355 silly install resolved     dist:
+355 silly install resolved      { shasum: '1637c45b872d909d9cc7e18b374898d50b2e844f',
+355 silly install resolved        tarball: 'https://registry.npmjs.org/ngstorage/-/ngstorage-0.3.11.tgz' },
+355 silly install resolved     maintainers: [ [Object] ],
+355 silly install resolved     _npmOperationalInternal:
+355 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+355 silly install resolved        tmp: 'tmp/ngstorage-0.3.11.tgz_1470033811992_0.22283236496150494' },
+355 silly install resolved     directories: {},
+355 silly install resolved     _resolved: 'https://registry.npmjs.org/ngstorage/-/ngstorage-0.3.11.tgz' } ]
+356 info install ngstorage@0.3.11 into /home/wdy
+357 info installOne ngstorage@0.3.11
+358 verbose installOne of ngstorage to /home/wdy not in flight; installing
+359 verbose correctMkdir /home/wdy/.npm/_locks correctMkdir not in flight; initializing
+360 verbose lock using /home/wdy/.npm/_locks/ngstorage-f3199d1e351fc632.lock for /home/wdy/node_modules/ngstorage
+361 silly install write writing ngstorage 0.3.11 to /home/wdy/node_modules/ngstorage
+362 verbose unbuild node_modules/ngstorage
+363 silly gentlyRm /home/wdy/node_modules/ngstorage is being purged from base /home/wdy
+364 verbose gentlyRm don't care about contents; nuking /home/wdy/node_modules/ngstorage
+365 verbose tar unpack /home/wdy/.npm/ngstorage/0.3.11/package.tgz
+366 verbose tar unpacking to /home/wdy/node_modules/ngstorage
+367 silly gentlyRm /home/wdy/node_modules/ngstorage is being purged
+368 verbose gentlyRm don't care about contents; nuking /home/wdy/node_modules/ngstorage
+369 silly gunzTarPerm modes [ '775', '664' ]
+370 silly gunzTarPerm extractEntry package.json
+371 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+372 silly gunzTarPerm extractEntry README.md
+373 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+374 silly gunzTarPerm extractEntry LICENSE
+375 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+376 silly gunzTarPerm extractEntry ngStorage.js
+377 silly gunzTarPerm modified mode [ 'ngStorage.js', 420, 436 ]
+378 silly gunzTarPerm extractEntry ngStorage.min.js
+379 silly gunzTarPerm modified mode [ 'ngStorage.min.js', 420, 436 ]
+380 silly gunzTarPerm extractEntry CHANGELOG.md
+381 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 436 ]
+382 verbose write writing to /home/wdy/node_modules/ngstorage/package.json
+383 info preinstall ngstorage@0.3.11
+384 verbose readDependencies loading dependencies from /home/wdy/node_modules/ngstorage/package.json
+385 verbose readDependencies loading dependencies from /home/wdy/node_modules/ngstorage/package.json
+386 silly install resolved []
+387 verbose about to build /home/wdy/node_modules/ngstorage
+388 info build /home/wdy/node_modules/ngstorage
+389 info linkStuff ngstorage@0.3.11
+390 silly linkStuff ngstorage@0.3.11 has /home/wdy/node_modules as its parent node_modules
+391 verbose linkBins ngstorage@0.3.11
+392 verbose linkMans ngstorage@0.3.11
+393 verbose rebuildBundles ngstorage@0.3.11
+394 info install ngstorage@0.3.11
+395 info postinstall ngstorage@0.3.11
+396 verbose unlock done using /home/wdy/.npm/_locks/ngstorage-f3199d1e351fc632.lock for /home/wdy/node_modules/ngstorage
+397 verbose validateInstall loading /home/wdy/package.json for validation
+398 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+398 verbose stack     at /usr/lib/node_modules/npm/lib/install.js:125:32
+398 verbose stack     at /usr/lib/node_modules/npm/lib/install.js:268:7
+398 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+398 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+398 verbose stack     at cb (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+398 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+398 verbose stack     at cb (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+398 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+398 verbose stack     at cb (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+398 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+399 verbose cwd /home/wdy/git/springboot-angularjs
+400 error Linux 4.4.0-42-generic
+401 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "ngstorage"
+402 error node v4.7.2
+403 error npm  v2.15.11
+404 error code EPEERINVALID
+405 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+405 error peerinvalid Peer grunt-contrib-jshint@1.1.0 wants grunt@>=0.4.0
+405 error peerinvalid Peer grunt-serve@0.1.6 wants grunt@~0.4.0
+406 verbose exit [ 1, true ]
